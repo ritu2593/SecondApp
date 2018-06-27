@@ -46,6 +46,13 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                 <configuration>
+            <source>1.5</source>
+            <target>1.5</target>
+            <fork>true</fork>
+            <meminitial>1024m</meminitial>
+            <maxmem>2024m</maxmem>
+       </configuration>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <version>3.0.0-M1</version>
                 <executions>
