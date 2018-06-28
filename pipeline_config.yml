@@ -16,6 +16,10 @@ stages:
   staticCodeChecks:
     findbugsExcludesFile: '' #Path to findbugs exclude file
     pmdExcludes: '' # List or ANT style patterns
+  
+steps:
+checkFindbugs:
+   excludeFilterFile : excludeFilter.xml
 
 #  integrationTests:
 #    credentials:
