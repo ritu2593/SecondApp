@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <copy todir="C:\Users\Administrator\Desktop\SAPCiCd\secondapp\application/scp/sdk-1.24.13/server" force="true" overwrite="true">
-    <fileset includes="**" dir="C:\Users\Administrator\Desktop\SAPCiCd\secondapp\application/localServerContent"/>
-  </copy>
-</target>
-</project>

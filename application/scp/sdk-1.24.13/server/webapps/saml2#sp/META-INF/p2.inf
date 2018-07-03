@@ -1,4 +1,0 @@
-instructions.install=installBundle(bundle:${artifact});
-instructions.uninstall=uninstallBundle(bundle:${artifact});
-instructions.configure=markStarted(started:true);
-instructions.unconfigure=markStarted(started:false);

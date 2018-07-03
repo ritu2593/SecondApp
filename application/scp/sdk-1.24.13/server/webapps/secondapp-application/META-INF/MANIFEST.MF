@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Built-By: Administrator
-Import-Package: com.sap.security.auth.service,com.sap.security.um.serv
- ice.api,com.sap.core.service.auditlog.impl,com.sap.cloud.auditlog,com
- .sap.cloud.auditlog.exception,com.sap.cloud.auditlog.extension
-Version: 0.0.1-SNAPSHOT
-Created-By: Apache Maven 3.5.4
-Build-Jdk: 1.8.0_171
-

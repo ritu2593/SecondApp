@@ -1,8 +1,0 @@
-#Mon Jun 25 12:49:35 UTC 2018
-URL=dummy
-Name=ErpQueryEndpoint
-TrustAll=FALSE
-Type=HTTP
-Password=dummy
-Authentication=BasicAuthentication
-User=dummy

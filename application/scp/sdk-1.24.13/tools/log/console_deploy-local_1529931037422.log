@@ -1,6 +1,0 @@
-2018-06-25 12:50:38,672 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Arguments:   --source C:\Users\Administrator\Desktop\SAPCiCd\secondapp\application\target/secondapp-application.war
-2018-06-25 12:50:41,205 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Starting execution of command [deploy-local]
-2018-06-25 12:50:41,205 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] init() finished for [0] ms
-2018-06-25 12:50:41,407 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] run() finished for [202] ms
-2018-06-25 12:50:41,407 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] cleanup() finished for [0] ms
-2018-06-25 12:50:41,407 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] finished successfully for [202] ms
