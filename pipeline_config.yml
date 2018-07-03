@@ -14,8 +14,16 @@ steps:
 #Stage Specific Configurations
 stages:
   staticCodeChecks:
+<<<<<<< HEAD
     findbugsExcludesFile: excludeFilter.xml
+=======
+    findbugsExcludesFile: 'excludeFilter.xml' #Path to findbugs exclude file
+>>>>>>> 67827991cbfc12c63f34754689ddcd24777af93e
     pmdExcludes: '' # List or ANT style patterns
+  
+steps:
+checkFindbugs:
+   excludeFilterFile : excludeFilter.xml
 
 #  integrationTests:
 #    credentials:
