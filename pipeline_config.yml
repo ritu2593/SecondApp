@@ -7,6 +7,9 @@ steps:
   mavenExecute:
 #    dockerImage: 'maven:3.5.0-jdk-8'
     projectSettingsFile : ''
+    
+  checkFindbugs:
+    excludeFilterFile : excludeFilter.xml
 
   deployToNeoWithCli:
     dockerImage: 's4sdk/docker-neo-cli'
@@ -14,16 +17,16 @@ steps:
 #Stage Specific Configurations
 stages:
   staticCodeChecks:
-<<<<<<< HEAD
+
     findbugsExcludesFile: excludeFilter.xml
-=======
-    findbugsExcludesFile: 'excludeFilter.xml' #Path to findbugs exclude file
->>>>>>> 67827991cbfc12c63f34754689ddcd24777af93e
+
+    findbugsExcludesFile: '' #Path to findbugs exclude file
+
     pmdExcludes: '' # List or ANT style patterns
   
-steps:
-checkFindbugs:
-   excludeFilterFile : excludeFilter.xml
+#steps:
+#checkFindbugs:
+#   excludeFilterFile : excludeFilter.xml
 
 #  integrationTests:
 #    credentials:

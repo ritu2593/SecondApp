@@ -496,4 +496,8 @@
     <Match>
         <Bug pattern="DM_DEFAULT_ENCODING"/>
     </Match>
+<<<<<<< HEAD
 </FindBugsFilter>
+=======
+</FindBugsFilter>
+>>>>>>> 072130169b11ffd4dc9c5e515fdb4f2ee1a5c622
