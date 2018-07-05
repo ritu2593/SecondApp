@@ -27,8 +27,8 @@
         <surefire.maxPermSize>512m</surefire.maxPermSize>
         <surefire.logLevel>info</surefire.logLevel>
 
-        <jacoco.destFile>${project.build.directory}/coverage-reports/jacoco.exec</jacoco.destFile>
-        <jacoco.outputDirectory>${project.reporting.outputDirectory}/jacoco</jacoco.outputDirectory>
+        <!--<jacoco.destFile>${project.build.directory}/coverage-reports/jacoco.exec</jacoco.destFile>
+        <jacoco.outputDirectory>${project.reporting.outputDirectory}/jacoco</jacoco.outputDirectory>-->
     </properties>
 
     <dependencies>
@@ -152,7 +152,7 @@
                                 <goal>prepare-agent</goal>
                             </goals>
                         </execution>
-                        <execution>
+                        <!--<execution>
                             <id>post-unit-test</id>
                             <phase>test</phase>
                             <goals>
@@ -160,7 +160,7 @@
                             </goals>
                             <configuration>
                                 <outputDirectory>${jacoco.outputDirectory}</outputDirectory>
-                            </configuration>
+                            </configuration>-->
                         </execution>
                     </executions>
                 </plugin>
