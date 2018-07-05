@@ -40,9 +40,10 @@ stages:
 #      - ''
 
   productionDeployment:
-    neoTargets:
-      - host: 'api.cf.eu10.hana.ondemand.com'
+    cfTargets:
+      - apiEndpoint: 'api.cf.eu10.hana.ondemand.com'
         space: 'dev'
         org: 'P2000427714trial_trial'
-        application: 'secondapp'
+        appName: 'secondapp'
         credentialsId: 'pcf'
+        manifest: 'manifest.yml'
