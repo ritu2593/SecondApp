@@ -41,9 +41,9 @@ stages:
 
   productionDeployment:
     cfTargets:
-      - apiEndpoint: 'api.cf.eu10.hana.ondemand.com'
-        space: 'dev'
-        org: 'P2000427714trial_trial'
-        appName: 'secondapp'
-        credentialsId: 'pcf'
-        manifest: 'manifest.yml'
+      - apiEndpoint:'api.cf.eu10.hana.ondemand.com'
+        space:'dev'
+        org:'P2000427714trial_trial'
+        appName:'secondapp'
+        credentialsId:'pcf'
+        manifest:'manifest.yml'
