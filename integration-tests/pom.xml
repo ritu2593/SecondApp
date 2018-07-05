@@ -160,8 +160,8 @@
                             </goals>
                             <configuration>
                                 <outputDirectory>${jacoco.outputDirectory}</outputDirectory>
-                            </configuration>-->
-                        </execution>
+                            </configuration>
+                        </execution>-->
                     </executions>
                 </plugin>
 
