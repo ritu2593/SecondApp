@@ -45,5 +45,5 @@ stages:
         space: 'dev'
         org: 'P2000427714trial_trial'
         appName: 'secondapp'
-        credentialsId: 'pcf credentials'
+        credentialId: 'pcf'
         manifest: 'manifest.yml'
