@@ -39,9 +39,10 @@ stages:
 #    nonErpDestinations:
 #      - ''
 
-#  productionDeployment:
-#    neoTargets:
-#      - host: 'host'
-#        account: 'yourAccount'
-#        application: 'appName'
-#        credentialsId: 'credentialsId'
+  productionDeployment:
+    sapTargets:
+      - host: 'api.cf.eu10.hana.ondemand.com'
+        space:'dev'
+        org: ' P2000427714trial_trial'
+        application: 'secondapp'
+        credentialsId: 'pcf'
