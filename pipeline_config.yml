@@ -41,7 +41,7 @@ stages:
 
   productionDeployment:
     appUrls:
-   - url: Secondapp-D123456.cfapps.eu10.hana.ondemand.com
+      - url: Secondapp-D123456.cfapps.eu10.hana.ondemand.com
     cfTargets:
       - apiEndpoint:'api.cf.eu10.hana.ondemand.com'
         space:'dev'
