@@ -46,6 +46,5 @@ stages:
       - apiEndpoint:'api.cf.eu10.hana.ondemand.com'
         space:'dev'
         org:'P2000427714trial_trial'
-        application:'secondapp'
         credentialsId:'PCF_USER'
         manifest:'manifest.yml'
