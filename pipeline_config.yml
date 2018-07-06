@@ -39,12 +39,12 @@ stages:
 #    nonErpDestinations:
 #      - ''
 
-  productionDeployment:
-    appUrls:
-      - url: Secondapp-D123456.cfapps.eu10.hana.ondemand.com
-    cfTargets:
-      - apiEndpoint:'api.cf.eu10.hana.ondemand.com'
-        space:'dev'
-        org:'P2000427714trial_trial'
-        credentialsId:'PCF_USER'
-        manifest:'manifest.yml'
+  #productionDeployment:
+   # appUrls:
+    #  - url: Secondapp-D123456.cfapps.eu10.hana.ondemand.com
+    #cfTargets:
+     # - apiEndpoint:'api.cf.eu10.hana.ondemand.com'
+     #   space:'dev'
+      #  org:'P2000427714trial_trial'
+      #  credentialsId:'PCF_USER'
+      #  manifest:'manifest.yml'
