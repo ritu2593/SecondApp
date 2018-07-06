@@ -40,10 +40,7 @@ stages:
 #      - ''
 
  productionDeployment:
-  appUrls:
-   - url: <application url>
-     credentialId: e2e-test-user-cf
-  cfTargets:
+   cfTargets:
    - space: 'dev'
      org: 'myorg'
      appName: 'secondapp'
