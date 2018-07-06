@@ -39,8 +39,8 @@ stages:
 #    nonErpDestinations:
 #      - ''
 
- productionDeployment:
-   cfTargets:
+productionDeployment:
+  cfTargets:
    - space: 'dev'
      org: 'myorg'
      appName: 'secondapp'
