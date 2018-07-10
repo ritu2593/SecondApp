@@ -41,10 +41,10 @@ stages:
 
 productionDeployment:
   cfTargets:
-   - space: 'dev'
+   - apiEndpoint: 'api.cf.eu10.hana.ondemand.com'
      org: 'myorg'
      appName: 'secondapp'
      manifest: 'manifest.yml'
      credentialsId: 'PCF_USER'
-     apiEndpoint: 'api.cf.eu10.hana.ondemand.com'
+     space: 'dev'
      deploymentType: 'standard'
