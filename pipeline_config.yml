@@ -42,7 +42,7 @@ stages:
 productionDeployment:
   cfTargets:
    - apiEndpoint: 'api.cf.eu10.hana.ondemand.com'
-     org: 'myorg'
+     org: 'P2000427714trial_trial'
      appName: 'secondapp'
      manifest: 'manifest.yml'
      credentialsId: 'PCF_USER'
