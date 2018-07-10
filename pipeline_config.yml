@@ -40,6 +40,7 @@ stages:
 #      - ''
 
 productionDeployment:
+ forceDowntimeDeployment: true
  cfTargets:
    - org: 'P2000427714trial_trial'
      space: 'dev'
