@@ -39,12 +39,13 @@ stages:
 #    nonErpDestinations:
 #      - ''
 
-  productionDeployment:
-    appUrls:
-      - url: Secondapp-D123456.cfapps.eu10.hana.ondemand.com
-    cfTargets:
-      - apiEndpoint:'api.cf.eu10.hana.ondemand.com'
-        space:'dev'
-        org:'P2000427714trial_trial'
-        credentialsId:'PCF_USER'
-        manifest:'manifest.yml'
+productionDeployment:
+  forceDowntimeDeployment: true
+  cfTargets:
+   - org: 'P2000427714trial_trial'
+     space: 'dev'
+     apiEndpoint: 'api.cf.eu10.hana.ondemand.com'
+     appName: 'secondapp'
+     credentialsId: 'PCF_USER'
+     manifest: 'manifest.yml'
+     deploymentType: 'standard'
