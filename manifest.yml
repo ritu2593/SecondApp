@@ -2,11 +2,14 @@
 applications:
 
 - name: Secondapp
-  memory: 768M
+  memory: 1024M
   host: Secondapp-D123456
   # random-route: true # used instead of "host"
   path: application/target/secondapp-application.war
   buildpack: sap_java_buildpack
+  memory_sizes:
+    heap: 100m..1024m
+    metaspace: 100m..1024m
   env:
-    TARGET_RUNTIME: tomee
-    JBP_CONFIG_SAPJVM_MEMORY_SIZES: "metaspace:1000m.."
+    TARGET_RUNTIME: tomcat
+    

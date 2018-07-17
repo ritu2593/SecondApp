@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.sap.secondapp.HelloWorldServletTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.818 s - in com.example.sap.secondapp.HelloWorldServletTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.203 s - in com.example.sap.secondapp.HelloWorldServletTest

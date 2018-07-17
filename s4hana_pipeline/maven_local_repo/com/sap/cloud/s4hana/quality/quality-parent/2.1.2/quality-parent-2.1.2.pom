@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Quality - Parent POM</name>
+    <description>Parent POM for S/4HANA quality modules.</description>
+
+    <groupId>com.sap.cloud.s4hana.quality</groupId>
+    <artifactId>quality-parent</artifactId>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>com.sap.cloud.s4hana</groupId>
+        <artifactId>sdk-parent</artifactId>
+        <version>2.1.2</version>
+    </parent>
+
+    <url>https://www.sap.com/s4sdk</url>
+
+    <organization>
+        <name>SAP SE</name>
+        <url>https://www.sap.com</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>SAP DEVELOPER LICENSE AGREEMENT</name>
+            <url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>SAP</name>
+            <email>s4sdk@sap.com</email>
+            <organization>SAP SE</organization>
+            <organizationUrl>https://www.sap.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection/>
+        <url/>
+    </scm>
+
+    <properties>
+        <project.rootdir>${project.basedir}/../../</project.rootdir>
+    </properties>
+
+    <modules>
+        <module>common</module>
+        <module>odata-querylistener</module>
+        <module>rfc-querylistener</module>
+        <module>httpclient-listener</module>
+        <module>listeners-all</module>
+        <module>pmd-rules</module>
+    </modules>
+</project>

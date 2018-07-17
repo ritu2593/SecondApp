@@ -1,1 +1,3 @@
+com\example\sap\secondapp\BusinessPartnerServlet.class
+com\example\sap\secondapp\GetBusinessPartnersCommand.class
 com\example\sap\secondapp\HelloWorldServlet.class
